@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+@theme {
+  --color-whitesmoke: #f5f5f5;
+  --color-mainblue: #007ac0;
+  --color-skyblue: #00c2e0;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
